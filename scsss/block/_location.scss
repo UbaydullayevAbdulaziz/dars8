@@ -85,6 +85,12 @@
 
 
 @media screen and (max-width:750px) {
+
+
+    .location__content {
+        text-align: center;
+    }
+
     .location__list {
         flex-direction: column;
         margin-left: 0;
@@ -110,7 +116,7 @@
     .location__item:nth-child(1)::before {
         left: 50%;
         margin-left: -21px;
-   
+
     }
 
     .location__item:nth-child(2)::before {
